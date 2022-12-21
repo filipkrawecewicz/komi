@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:id="@+id/MyLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="15dp"
+        android:text="Skąd chcesz wyjechać:"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinnerA"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="15dp"
+        android:text="Dokąd jedziesz:"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinnerB"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:spinnerMode="dropdown" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/editTextDystans"
+            android:paddingHorizontal="10dp"
+            android:layout_marginVertical="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Odległość między miastami"/>
+        <Button
+            android:id="@+id/buttonZmiana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ZMIEŃ"
+            android:paddingVertical="10dp"
+            android:layout_marginVertical="15dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/cardview_shadow_end_color"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonTrasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:text="TRASA"
+        android:backgroundTint="@color/cardview_dark_background"/>
+    <TextView
+        android:id="@+id/textWynikTrasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="15dp"
+        android:textSize="18sp" />
+</LinearLayout>

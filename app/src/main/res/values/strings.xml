@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">komi</string>
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="cities">
+        <item>Gdynia</item>
+        <item>Warszawa</item>
+        <item>Gdańsk</item>
+        <item>Katowice</item>
+        <item>Sopot</item>
+        <item>Wrocław</item>
+        <item>Kraków</item>
+        <item></item>
+    </string-array>
+</resources>
