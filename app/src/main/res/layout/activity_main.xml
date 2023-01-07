@@ -16,7 +16,7 @@
         android:textSize="20sp" />
 
     <Spinner
-        android:id="@+id/spinnerA"
+        android:id="@+id/spinner1"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:spinnerMode="dropdown"/>
@@ -29,7 +29,7 @@
         android:textSize="20sp" />
 
     <Spinner
-        android:id="@+id/spinnerB"
+        android:id="@+id/spinner2"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:spinnerMode="dropdown" />
@@ -37,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <EditText
-            android:id="@+id/editTextDystans"
+            android:id="@+id/editTxtDistance"
             android:paddingHorizontal="10dp"
             android:layout_marginVertical="15dp"
             android:layout_width="wrap_content"
@@ -45,24 +45,24 @@
             android:inputType="number"
             android:hint="Odległość między miastami"/>
         <Button
-            android:id="@+id/buttonZmiana"
+            android:id="@+id/btnChange"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="ZMIEŃ"
             android:paddingVertical="10dp"
             android:layout_marginVertical="15dp"
-            android:textColor="@color/black"
-            android:backgroundTint="@color/cardview_shadow_end_color"/>
+            android:textColor="@color/white"
+            android:backgroundTint="@color/cardview_dark_background"/>
     </LinearLayout>
     <Button
-        android:id="@+id/buttonTrasa"
+        android:id="@+id/btnRoute"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingVertical="10dp"
         android:text="TRASA"
         android:backgroundTint="@color/cardview_dark_background"/>
     <TextView
-        android:id="@+id/textWynikTrasa"
+        android:id="@+id/textRouteValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingVertical="15dp"

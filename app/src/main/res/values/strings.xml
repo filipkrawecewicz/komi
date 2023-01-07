@@ -4,12 +4,12 @@
 
     <string-array name="cities">
         <item>Gdynia</item>
-        <item>Warszawa</item>
         <item>Gdańsk</item>
-        <item>Katowice</item>
         <item>Sopot</item>
+        <item>Warszawa</item>
+        <item>Katowice</item>
         <item>Wrocław</item>
         <item>Kraków</item>
-        <item></item>
+        <item>Gliwice</item>
     </string-array>
 </resources>
